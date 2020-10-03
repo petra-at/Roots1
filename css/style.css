@@ -1227,17 +1227,17 @@
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #9a81a7cc;
+				background-color: #705729c0;
 				/* #9a81a7cc;*/ 
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color:
-				#9a81a7cc;
+				background-color:#705729c0;
+				/*#9a81a7cc;*/
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #9a81a7cc;;
+				background-color: #705729c0;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
