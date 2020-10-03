@@ -1110,6 +1110,7 @@
 			position: relative;
 			width: calc(33.33333% - 2.5em);
 			margin: 2.5em 0 0 2.5em;
+			
 		}
 
 			.tiles article > .image {
@@ -1232,27 +1233,17 @@
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #9a81a7cc;
+				/* #9a81a7cc;*/ 
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
+				background-color:
+				#9a81a7cc;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
-			}
-
-			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
-			}
-
-			.tiles article.style5 > .image:before {
-				background-color: #ae85ca;
-			}
-
-			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+				background-color: #9a81a7cc;;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
