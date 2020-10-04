@@ -1,8 +1,13 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Roboto:500,300");
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
 
 /* Basic */
+html {
+	scroll-behavior: smooth;
+  }
 
 	body {
 		background: #fff;
@@ -1335,4 +1340,55 @@
 					margin: 1.25em 0 0 0;
 				}
 
+		}
+		#root1-text{
+			animation: fill 0.5s ease forwards 4s;
+		}
+
+		#root1-text path:nth-child(1){
+			stroke-dasharray: 653;
+			stroke-dashoffset: 653;
+			animation: line-anim 2s ease forwards;
+		}
+
+		#root1-text path:nth-child(2){
+			stroke-dasharray: 551;
+			stroke-dashoffset: 551;
+			animation: line-anim 4s ease forwards 0.3s;
+		}
+
+		#root1-text path:nth-child(3){
+			stroke-dasharray: 551;
+			stroke-dashoffset: 551;
+			animation: line-anim 4s ease forwards 0.6s;
+		}
+
+		#root1-text path:nth-child(4){
+			stroke-dasharray: 528;
+			stroke-dashoffset: 528;
+			animation: line-anim 4s ease forwards 0.9s;
+		}
+
+		
+		#root1-text path:nth-child(5){
+			stroke-dasharray: 309;
+			stroke-dashoffset: 309;
+			animation: line-anim 4s ease forwards 1.2s;
+		}
+
+	
+
+		@keyframes line-anim{
+			to{
+				stroke-dashoffset: 0;
+			}
+		}
+
+		@keyframes fill{
+			from{
+				fill: transparent;
+			}
+			to{
+				fill:black;
+			}
 		}
