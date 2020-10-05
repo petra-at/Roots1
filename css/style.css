@@ -1550,3 +1550,54 @@ html {
 						}
 	
 					}
+
+					@media screen and (max-width: 425px) {
+						#image_logo{
+							width:419px;
+							height:493px;
+							margin-top: 50;
+						}
+
+						svg{
+							width:280px;
+							height:110px; 
+						}
+
+						#storefront{
+							width:380px;
+						}
+					}
+
+					@media screen and (max-width: 375px) {
+						#image_logo{
+							width:360px;
+							height:384px;
+							margin-top: 100;
+						}
+
+						svg{
+							width:280px;
+							height:110px; 
+						}
+
+						#storefront{
+							width:340px;
+						}
+					}
+
+					@media screen and (max-width: 320px) {
+						#image_logo{
+							width:310px;
+							height:355px;
+							margin-top: 100;
+						}
+
+						svg{
+							width:280px;
+							height:110px; 
+						}
+
+						#storefront{
+							width:295px;
+						}
+					}
