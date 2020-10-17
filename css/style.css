@@ -157,7 +157,7 @@ html {
 	}
 
 	#services_header{
-		background-image: url(/images/services_wash.jpg);
+		background-image: url(../images/services_wash.jpg);
 		background-size:auto ;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -170,7 +170,7 @@ html {
 	@media screen and (max-width: 768px) {
 
 		#services_header{
-			background-image: url(/images/services_wash.jpg);
+			background-image: url(../images/services_wash.jpg);
 			background-size:contain ;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -184,7 +184,7 @@ html {
 	@media screen and (max-width: 425px) {
 
 		#services_header{
-			background-image: url(/images/services_wash.jpg);
+			background-image: url(../images/services_wash.jpg);
 			background-size:contain ;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -199,7 +199,7 @@ html {
 	@media screen and (max-width: 425px) {
 
 		#services_header{
-			background-image: url(/images/services_wash_350px.jpg);
+			background-image: url(../images/services_wash_350px.jpg);
 			background-size:contain ;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -214,7 +214,7 @@ html {
 	@media screen and (max-width: 375px) {
 
 		#services_header{
-			background-image: url(/images/services_wash_350px.jpg);
+			background-image: url(../images/services_wash_350px.jpg);
 			background-size:contain ;
 			background-position: center;
 			background-repeat: no-repeat;
