@@ -220,3 +220,534 @@
 				/* padding: (gutters.vertical * 2) 0 0 (gutters.vertical * 2) */
 				padding: 8em 0 0 8em;
 			}
+
+			/* Banner */
+
+	#banner {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-direction: row;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		background-color: #363847;
+	}
+
+		#banner > .items {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-flex-direction: column;
+			-webkit-flex-direction: column;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			-moz-flex-grow: 0;
+			-webkit-flex-grow: 0;
+			-ms-flex-grow: 0;
+			flex-grow: 0;
+			-moz-flex-shrink: 0;
+			-webkit-flex-shrink: 0;
+			-ms-flex-shrink: 0;
+			flex-shrink: 0;
+			width: 40%;
+		}
+
+			#banner > .items section {
+				padding: 5em 6em 3em 6em ;
+				-moz-transition: opacity 0.5s ease-in-out, -moz-transform 0.5s ease-in-out;
+				-webkit-transition: opacity 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+				-ms-transition: opacity 0.5s ease-in-out, -ms-transform 0.5s ease-in-out;
+				transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+				text-align: center;
+			}
+
+				#banner > .items section h1 {
+					font-size: 1.75em;
+				}
+
+				#banner > .items section.accent1 {
+					background-color: #575b72;
+					color: rgba(255, 255, 255, 0.75);
+				}
+
+					#banner > .items section.accent1 input, #banner > .items section.accent1 select, #banner > .items section.accent1 textarea {
+						color: #ffffff;
+					}
+
+					#banner > .items section.accent1 a {
+						color: #ffffff;
+					}
+
+					#banner > .items section.accent1 strong, #banner > .items section.accent1 b {
+						color: #ffffff;
+					}
+
+					#banner > .items section.accent1 h1, #banner > .items section.accent1 h2, #banner > .items section.accent1 h3, #banner > .items section.accent1 h4, #banner > .items section.accent1 h5, #banner > .items section.accent1 h6 {
+						color: #ffffff;
+					}
+
+					#banner > .items section.accent1 blockquote {
+						border-left-color: rgba(255, 255, 255, 0.25);
+					}
+
+					#banner > .items section.accent1 code {
+						background: rgba(255, 255, 255, 0.05);
+						border-color: rgba(255, 255, 255, 0.25);
+					}
+
+					#banner > .items section.accent1 hr {
+						border-bottom-color: rgba(255, 255, 255, 0.25);
+					}
+
+					#banner > .items section.accent1 input[type="submit"],
+					#banner > .items section.accent1 input[type="reset"],
+					#banner > .items section.accent1 input[type="button"],
+					#banner > .items section.accent1 button,
+					#banner > .items section.accent1 .button {
+						background-color: transparent;
+						box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+						color: #ffffff !important;
+					}
+
+						#banner > .items section.accent1 input[type="submit"]:hover,
+						#banner > .items section.accent1 input[type="reset"]:hover,
+						#banner > .items section.accent1 input[type="button"]:hover,
+						#banner > .items section.accent1 button:hover,
+						#banner > .items section.accent1 .button:hover {
+							background-color: rgba(255, 255, 255, 0.05);
+						}
+
+						#banner > .items section.accent1 input[type="submit"]:active,
+						#banner > .items section.accent1 input[type="reset"]:active,
+						#banner > .items section.accent1 input[type="button"]:active,
+						#banner > .items section.accent1 button:active,
+						#banner > .items section.accent1 .button:active {
+							background-color: rgba(255, 255, 255, 0.1);
+						}
+
+						#banner > .items section.accent1 input[type="submit"].primary,
+						#banner > .items section.accent1 input[type="reset"].primary,
+						#banner > .items section.accent1 input[type="button"].primary,
+						#banner > .items section.accent1 button.primary,
+						#banner > .items section.accent1 .button.primary {
+							box-shadow: 0 0 3em 0 rgba(0, 0, 0, 0.1);
+							background-color: #5f6484;
+							color: #ffffff !important;
+						}
+
+							#banner > .items section.accent1 input[type="submit"].primary:hover,
+							#banner > .items section.accent1 input[type="reset"].primary:hover,
+							#banner > .items section.accent1 input[type="button"].primary:hover,
+							#banner > .items section.accent1 button.primary:hover,
+							#banner > .items section.accent1 .button.primary:hover {
+								background-color: #696f93;
+							}
+
+							#banner > .items section.accent1 input[type="submit"].primary:active,
+							#banner > .items section.accent1 input[type="reset"].primary:active,
+							#banner > .items section.accent1 input[type="button"].primary:active,
+							#banner > .items section.accent1 button.primary:active,
+							#banner > .items section.accent1 .button.primary:active {
+								background-color: #757ca0;
+							}
+
+				#banner > .items section.accent2 {
+					background-color: #4cabb1;
+					color: rgba(255, 255, 255, 0.75);
+				}
+
+					#banner > .items section.accent2 input, #banner > .items section.accent2 select, #banner > .items section.accent2 textarea {
+						color: #ffffff;
+					}
+
+					#banner > .items section.accent2 a {
+						color: #ffffff;
+					}
+
+					#banner > .items section.accent2 strong, #banner > .items section.accent2 b {
+						color: #ffffff;
+					}
+
+					#banner > .items section.accent2 h1, #banner > .items section.accent2 h2, #banner > .items section.accent2 h3, #banner > .items section.accent2 h4, #banner > .items section.accent2 h5, #banner > .items section.accent2 h6 {
+						color: #ffffff;
+					}
+
+					#banner > .items section.accent2 blockquote {
+						border-left-color: rgba(255, 255, 255, 0.25);
+					}
+
+					#banner > .items section.accent2 code {
+						background: rgba(255, 255, 255, 0.05);
+						border-color: rgba(255, 255, 255, 0.25);
+					}
+
+					#banner > .items section.accent2 hr {
+						border-bottom-color: rgba(255, 255, 255, 0.25);
+					}
+
+					#banner > .items section.accent2 input[type="submit"],
+					#banner > .items section.accent2 input[type="reset"],
+					#banner > .items section.accent2 input[type="button"],
+					#banner > .items section.accent2 button,
+					#banner > .items section.accent2 .button {
+						background-color: transparent;
+						box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+						color: #ffffff !important;
+					}
+
+						#banner > .items section.accent2 input[type="submit"]:hover,
+						#banner > .items section.accent2 input[type="reset"]:hover,
+						#banner > .items section.accent2 input[type="button"]:hover,
+						#banner > .items section.accent2 button:hover,
+						#banner > .items section.accent2 .button:hover {
+							background-color: rgba(255, 255, 255, 0.05);
+						}
+
+						#banner > .items section.accent2 input[type="submit"]:active,
+						#banner > .items section.accent2 input[type="reset"]:active,
+						#banner > .items section.accent2 input[type="button"]:active,
+						#banner > .items section.accent2 button:active,
+						#banner > .items section.accent2 .button:active {
+							background-color: rgba(255, 255, 255, 0.1);
+						}
+
+						#banner > .items section.accent2 input[type="submit"].primary,
+						#banner > .items section.accent2 input[type="reset"].primary,
+						#banner > .items section.accent2 input[type="button"].primary,
+						#banner > .items section.accent2 button.primary,
+						#banner > .items section.accent2 .button.primary {
+							box-shadow: 0 0 3em 0 rgba(0, 0, 0, 0.1);
+							background-color: #5ab7bd;
+							color: #ffffff !important;
+						}
+
+							#banner > .items section.accent2 input[type="submit"].primary:hover,
+							#banner > .items section.accent2 input[type="reset"].primary:hover,
+							#banner > .items section.accent2 input[type="button"].primary:hover,
+							#banner > .items section.accent2 button.primary:hover,
+							#banner > .items section.accent2 .button.primary:hover {
+								background-color: #6cbfc4;
+							}
+
+							#banner > .items section.accent2 input[type="submit"].primary:active,
+							#banner > .items section.accent2 input[type="reset"].primary:active,
+							#banner > .items section.accent2 input[type="button"].primary:active,
+							#banner > .items section.accent2 button.primary:active,
+							#banner > .items section.accent2 .button.primary:active {
+								background-color: #7cc8cd;
+							}
+
+				#banner > .items section.accent3 {
+					background-color: #69c7ad;
+					color: rgba(255, 255, 255, 0.75);
+				}
+
+					#banner > .items section.accent3 input, #banner > .items section.accent3 select, #banner > .items section.accent3 textarea {
+						color: #ffffff;
+					}
+
+					#banner > .items section.accent3 a {
+						color: #ffffff;
+					}
+
+					#banner > .items section.accent3 strong, #banner > .items section.accent3 b {
+						color: #ffffff;
+					}
+
+					#banner > .items section.accent3 h1, #banner > .items section.accent3 h2, #banner > .items section.accent3 h3, #banner > .items section.accent3 h4, #banner > .items section.accent3 h5, #banner > .items section.accent3 h6 {
+						color: #ffffff;
+					}
+
+					#banner > .items section.accent3 blockquote {
+						border-left-color: rgba(255, 255, 255, 0.25);
+					}
+
+					#banner > .items section.accent3 code {
+						background: rgba(255, 255, 255, 0.05);
+						border-color: rgba(255, 255, 255, 0.25);
+					}
+
+					#banner > .items section.accent3 hr {
+						border-bottom-color: rgba(255, 255, 255, 0.25);
+					}
+
+					#banner > .items section.accent3 input[type="submit"],
+					#banner > .items section.accent3 input[type="reset"],
+					#banner > .items section.accent3 input[type="button"],
+					#banner > .items section.accent3 button,
+					#banner > .items section.accent3 .button {
+						background-color: transparent;
+						box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+						color: #ffffff !important;
+					}
+
+						#banner > .items section.accent3 input[type="submit"]:hover,
+						#banner > .items section.accent3 input[type="reset"]:hover,
+						#banner > .items section.accent3 input[type="button"]:hover,
+						#banner > .items section.accent3 button:hover,
+						#banner > .items section.accent3 .button:hover {
+							background-color: rgba(255, 255, 255, 0.05);
+						}
+
+						#banner > .items section.accent3 input[type="submit"]:active,
+						#banner > .items section.accent3 input[type="reset"]:active,
+						#banner > .items section.accent3 input[type="button"]:active,
+						#banner > .items section.accent3 button:active,
+						#banner > .items section.accent3 .button:active {
+							background-color: rgba(255, 255, 255, 0.1);
+						}
+
+						#banner > .items section.accent3 input[type="submit"].primary,
+						#banner > .items section.accent3 input[type="reset"].primary,
+						#banner > .items section.accent3 input[type="button"].primary,
+						#banner > .items section.accent3 button.primary,
+						#banner > .items section.accent3 .button.primary {
+							box-shadow: 0 0 3em 0 rgba(0, 0, 0, 0.1);
+							background-color: #79d1b8;
+							color: #ffffff !important;
+						}
+
+							#banner > .items section.accent3 input[type="submit"].primary:hover,
+							#banner > .items section.accent3 input[type="reset"].primary:hover,
+							#banner > .items section.accent3 input[type="button"].primary:hover,
+							#banner > .items section.accent3 button.primary:hover,
+							#banner > .items section.accent3 .button.primary:hover {
+								background-color: #8cd7c2;
+							}
+
+							#banner > .items section.accent3 input[type="submit"].primary:active,
+							#banner > .items section.accent3 input[type="reset"].primary:active,
+							#banner > .items section.accent3 input[type="button"].primary:active,
+							#banner > .items section.accent3 button.primary:active,
+							#banner > .items section.accent3 .button.primary:active {
+								background-color: #9ddfcd;
+							}
+
+				#banner > .items section.accent4 {
+					background-color: #fed586;
+					color: rgba(255, 255, 255, 0.75);
+				}
+
+					#banner > .items section.accent4 input, #banner > .items section.accent4 select, #banner > .items section.accent4 textarea {
+						color: #ffffff;
+					}
+
+					#banner > .items section.accent4 a {
+						color: #ffffff;
+					}
+
+					#banner > .items section.accent4 strong, #banner > .items section.accent4 b {
+						color: #ffffff;
+					}
+
+					#banner > .items section.accent4 h1, #banner > .items section.accent4 h2, #banner > .items section.accent4 h3, #banner > .items section.accent4 h4, #banner > .items section.accent4 h5, #banner > .items section.accent4 h6 {
+						color: #ffffff;
+					}
+
+					#banner > .items section.accent4 blockquote {
+						border-left-color: rgba(255, 255, 255, 0.25);
+					}
+
+					#banner > .items section.accent4 code {
+						background: rgba(255, 255, 255, 0.05);
+						border-color: rgba(255, 255, 255, 0.25);
+					}
+
+					#banner > .items section.accent4 hr {
+						border-bottom-color: rgba(255, 255, 255, 0.25);
+					}
+
+					#banner > .items section.accent4 input[type="submit"],
+					#banner > .items section.accent4 input[type="reset"],
+					#banner > .items section.accent4 input[type="button"],
+					#banner > .items section.accent4 button,
+					#banner > .items section.accent4 .button {
+						background-color: transparent;
+						box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+						color: #ffffff !important;
+					}
+
+						#banner > .items section.accent4 input[type="submit"]:hover,
+						#banner > .items section.accent4 input[type="reset"]:hover,
+						#banner > .items section.accent4 input[type="button"]:hover,
+						#banner > .items section.accent4 button:hover,
+						#banner > .items section.accent4 .button:hover {
+							background-color: rgba(255, 255, 255, 0.05);
+						}
+
+						#banner > .items section.accent4 input[type="submit"]:active,
+						#banner > .items section.accent4 input[type="reset"]:active,
+						#banner > .items section.accent4 input[type="button"]:active,
+						#banner > .items section.accent4 button:active,
+						#banner > .items section.accent4 .button:active {
+							background-color: rgba(255, 255, 255, 0.1);
+						}
+
+						#banner > .items section.accent4 input[type="submit"].primary,
+						#banner > .items section.accent4 input[type="reset"].primary,
+						#banner > .items section.accent4 input[type="button"].primary,
+						#banner > .items section.accent4 button.primary,
+						#banner > .items section.accent4 .button.primary {
+							box-shadow: 0 0 3em 0 rgba(0, 0, 0, 0.1);
+							background-color: #ffde9f;
+							color: #ffffff !important;
+						}
+
+							#banner > .items section.accent4 input[type="submit"].primary:hover,
+							#banner > .items section.accent4 input[type="reset"].primary:hover,
+							#banner > .items section.accent4 input[type="button"].primary:hover,
+							#banner > .items section.accent4 button.primary:hover,
+							#banner > .items section.accent4 .button.primary:hover {
+								background-color: #ffe7b8;
+							}
+
+							#banner > .items section.accent4 input[type="submit"].primary:active,
+							#banner > .items section.accent4 input[type="reset"].primary:active,
+							#banner > .items section.accent4 input[type="button"].primary:active,
+							#banner > .items section.accent4 button.primary:active,
+							#banner > .items section.accent4 .button.primary:active {
+								background-color: #ffefd2;
+							}
+
+		#banner > .slider {
+			-moz-flex-grow: 0;
+			-webkit-flex-grow: 0;
+			-ms-flex-grow: 0;
+			flex-grow: 0;
+			-moz-flex-shrink: 0;
+			-webkit-flex-shrink: 0;
+			-ms-flex-shrink: 0;
+			flex-shrink: 0;
+			-moz-transition: opacity 1.5s ease-in-out;
+			-webkit-transition: opacity 1.5s ease-in-out;
+			-ms-transition: opacity 1.5s ease-in-out;
+			transition: opacity 1.5s ease-in-out;
+			width: 60%;
+			opacity: 1;
+			position: relative;
+		}
+
+			#banner > .slider > article {
+				-moz-transition: opacity 1.5s, visibility 1.5s;
+				-webkit-transition: opacity 1.5s, visibility 1.5s;
+				-ms-transition: opacity 1.5s, visibility 1.5s;
+				transition: opacity 1.5s, visibility 1.5s;
+				background-size: cover;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				opacity: 0;
+				visibility: hidden;
+				z-index: 0;
+			}
+
+				#banner > .slider > article.visible {
+					opacity: 1;
+					visibility: visible;
+				}
+
+				#banner > .slider > article.top {
+					z-index: 1;
+				}
+
+				#banner > .slider > article:before {
+					content: '';
+					height: 100%;
+					left: 0;
+					opacity: 0;
+					position: absolute;
+					top: 0;
+					width: 100%;
+				}
+
+				#banner > .slider > article img {
+					height: 100%;
+					width: 100%;
+				}
+
+		body.is-preload #banner > .slider {
+			opacity: 0;
+		}
+
+		@media screen and (max-width: 1680px) {
+
+			#banner > .items section {
+				padding: 4.5em 5em 2.5em 5em ;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#banner > .items section {
+				padding: 3.5em 3em 1.5em 3em ;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#banner {
+				-moz-flex-direction: column-reverse;
+				-webkit-flex-direction: column-reverse;
+				-ms-flex-direction: column-reverse;
+				flex-direction: column-reverse;
+			}
+
+				#banner > .items {
+					-moz-flex-direction: row;
+					-webkit-flex-direction: row;
+					-ms-flex-direction: row;
+					flex-direction: row;
+					width: 100%;
+				}
+
+				#banner > .slider {
+					height: 40em;
+					max-height: 55vh;
+					width: 100%;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#banner > .items section {
+				padding: 3em 3em 1em 3em ;
+			}
+
+				#banner > .items section h1 {
+					font-size: 1.25em;
+				}
+
+			#banner > .slider {
+				height: 30em;
+				max-height: none;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#banner > .items {
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+			}
+
+				#banner > .items section {
+					padding: 3em 3em 1em 3em ;
+				}
+
+			#banner > .slider {
+				height: 20em;
+				max-height: 40vh;
+			}
+
+		}

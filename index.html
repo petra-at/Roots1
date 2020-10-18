@@ -13,6 +13,7 @@
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 		
@@ -25,7 +26,7 @@
 
 	<body id="top">
 
-		<!-- Header -->
+		<!-- Navigation -->
 			<header id="header" class="skel-layers-fixed">
 				
 				<h1><a href="index.html">ROOT 1</a></h1>
@@ -41,11 +42,10 @@
 					</ul>
 				</nav>
 			</header>
-			
-		<!-- Banner -->
-		<section style="height:100vh">
-		<div style="margin-top:2%; text-align: center;">
-			
+
+		<!-- SVG -->
+		
+		<div style="text-align: center; padding-top: 50px;padding-left: 50px;padding-bottom: 50px;">
 			<svg id="root1-text" width="350" height="110" viewBox="0 0 500 110" fill="none" xmlns="http://www.w3.org/2000/svg">
 			
 				<path
@@ -64,73 +64,78 @@
 					d="M480.914 15.5491V93.1782C480.914 94.3564 481.22 95.2727 481.831 95.9273C482.442 96.5382 483.336 96.9309 484.514 97.1055L497.998 99.2654V105.876H447.991V99.2654L462.98 97.04C464.158 96.8655 465.14 96.4727 465.925 95.8618C466.711 95.2509 467.104 94.3564 467.104 93.1782V29.6873C466.187 30.0364 464.943 30.4509 463.373 30.9309C461.845 31.3673 460.187 31.8036 458.398 32.24C456.653 32.6327 454.885 33.0036 453.096 33.3527C451.351 33.6582 449.78 33.8764 448.384 34.0073L446.878 26.8727C451.547 25.8255 456.282 24.1018 461.082 21.7018C465.882 19.3018 469.896 16.7491 473.125 14.0436L480.914 15.5491Z"
 					stroke="black" stroke-width="4" mask="url(#path-1-outside-1)" />
 			</svg>
+		
 		</div>	
-		
-		<h4 class="animate__animated animate__fadeInUp animate__delay-2s" style="font-family: 'Allura',sans-serif ;font-size:xxx-large; font-weight: 300; text-align:center; margin:0">Unisex Hair</h4>
-			
-		<div  
-		data-aos="fade-up"
-		data-aos-easing="ease-in-up"
-		data-aos-delay="500"
-		data-aos-duration="2000"
-		data-aos-offset="0" 
-		data-aos-anchor-placement="top-center"
-		style="text-align: center;">
-				<img id="image_logo" style="margin-top: 3%;"height="450px" width="550px" src="images/logo_ppl.png">
-				<a style="text-decoration: none;" href="#scrollto"><i style="cursor:pointer;margin-top:3%; display:block"class="animate__animated animate__fadeInDown animate__infinite animate__slow  icon fa-chevron-down fa-2x"></i></a>
-			</div>
-			
-		</section>
-		
-		<!-- Welcome Text -->
-		<div id ="scrollto" style="height:55px"></div>
-			<section id="one" class=" style1">
-				<header class="major">
-					<h2>Welcome to Root 1 </h2>
-					<p>Specialists in Afro & European Hair</p>
-				</header>
-			</section>
 
-		<!-- Tiles -->
-			<section class="tiles">
+			<section id="banner-top">
+
+				<div  class="items">
+
+					<!-- Tiles -->
+				<section class="tiles " style="padding-top: 0px;padding-left: 0px;padding-bottom: 0px;padding-right: 0px;" >
 				
-				<article class="style1">
-					<span class="image">
-						<img height="330x" src="images/services.jpg"  alt="" />
-					</span>
-					<a href="services.html">
-						<h2 style="color:white;font-weight: 300;">Services</h2>
-						<div class="content">
-							<p>We offer an array of hairdressing services</p>
-						</div>
-					</a>
-				</article>
+					<article class="style1">
+						<span class="image">
+						<img height="330x" src="images/services_wash.jpg"  alt="" />
+						</span>
+						<a href="services.html">
+							<h2 style="color:white;font-weight: 300;">Services</h2>
+							<div class="content">
+								<p>We offer an array of hairdressing services</p>
+							</div>
+						</a>
+					</article>
 
-				<article class="style2">
-					<span style="margin-bottom: 20%;" class="image">
-						<img height="330x" src="images/black_hair_gallery.jpg" alt="" />
-					</span>
+				
 
-					<a href="gallery.html">
-						<h2 style="color:white;font-weight: 300;" >Gallery</h2>
-						<div class="content">
-							<p>Take inspiration from some of our hairstyles, cuts and colours  </p>
-						</div>
-					</a>
-				</article>
+					<article class="style3">
+						<span class="image">
+							<img height="330x" src="images/pic03.jpeg" alt="" />
+						</span>
+						<a href="about.html">
+							<h2 style="color:white;font-weight: 300;">About</h2>
+							<div class="content">
+								<p>Discover our background and history.</p>
+							</div>
+						</a>
+					</article>
 
-				<article class="style3">
-					<span class="image">
-						<img height="330x" src="images/root1_hairsalon.png" alt="" />
-					</span>
-					<a href="about.html">
-						<h2 style="color:white;font-weight: 300;">About</h2>
-						<div class="content">
-							<p>Discover our background and history.</p>
-						</div>
-					</a>
-				</article>
+					<article class="style2">
+						<span class="image">
+							<img height="330x" src="images/black_hair_gallery.jpg" alt="" />
+						</span>
+
+						<a href="gallery.html">
+							<h2 style="color:white;font-weight: 300;" >Gallery</h2>
+							<div class="content">
+								<p>Take inspiration from some of our hairstyles, cuts and colours  </p>
+							</div>
+						</a>
+					</article>
+
+				
+				</section>
+			</div>
+
+				<!--Slider -->
+				<div class="slider">
+					<article>
+						<img src="/images/pic01.jpeg" alt="" data-position="bottom right" />
+					</article>
+					<article>
+						<img src="/images/pic02.jpeg" alt="" data-position="bottom right" />
+					</article>
+					<article>
+						<img src="/images/pic03.jpeg" alt="" data-position="top left" />
+					</article>
+				</div>
+
 			</section>
+
+
+	
+
+		
 			
 		<!-- Footer -->
 			<footer class="wrapper style2">
@@ -181,7 +186,12 @@
 
 				</div>
 			</footer>
+
 			<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 			<script> AOS.init();</script>
+			<script src="/js/browser.min.js"></script>
+			<script src="/js/breakpoints.min.js"></script>
+			<script src="/js/util.js"></script>
+			<script src="/js/main.js"></script>
 	</body>
 </html>
