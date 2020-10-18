@@ -1365,10 +1365,7 @@ html {
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
-				-moz-transform: scale(1.1);
-				-webkit-transform: scale(1.1);
-				-ms-transform: scale(1.1);
-				transform: scale(1.1);
+			
 			}
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
@@ -1390,10 +1387,7 @@ html {
 		}
 
 		body.is-preload .tiles article {
-			-moz-transform: scale(0.9);
-			-webkit-transform: scale(0.9);
-			-ms-transform: scale(0.9);
-			transform: scale(0.9);
+		
 			opacity: 0;
 		}
 
@@ -2127,7 +2121,7 @@ html {
 			width: 60%;
 			opacity: 1;
 			position: relative;
-			max-height: 1200px;
+			height: 100vh;
 		}
 
 			#banner-top > .slider > article {
