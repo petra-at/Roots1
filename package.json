@@ -1,0 +1,36 @@
+{
+  "name": "root1",
+  "version": "1.0.0",
+  "description": "Root 1 hairdresser website",
+  "main": "index.js",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^3.0.0-beta.6",
+    "live-server": "^1.2.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petra-at/Roots1.git"
+  },
+  "keywords": [
+    "hairdresser",
+    "salon",
+    "hair",
+    "tooting",
+    "braids",
+    "cornows",
+    "black hair",
+    "afro"
+  ],
+  "author": "Petra Adu-Tei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petra-at/Roots1/issues"
+  },
+  "homepage": "https://github.com/petra-at/Roots1#readme"
+}
