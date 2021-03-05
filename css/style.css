@@ -1711,6 +1711,7 @@ html {
 		background-color: #fffdf8f7;
 		transform: scale(0.65);
 		transform-origin: top;
+		margin: 0 auto;
 	}
 
 		#banner-top > .items {
@@ -1762,7 +1763,7 @@ html {
 			-webkit-transition: opacity 1.5s ease-in-out;
 			-ms-transition: opacity 1.5s ease-in-out;
 			transition: opacity 1.5s ease-in-out;
-			width: 75%;
+			width: 80%;
 			opacity: 1;
 			position: relative;
 			
@@ -1807,6 +1808,7 @@ html {
 				#banner-top > .slider > article img {
 					height:100%;
 					width: 100%;
+					object-fit:cover
 				}
 
 		body.is-preload #banner-top > .slider {
